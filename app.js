@@ -57,6 +57,7 @@ const acc_body = document.querySelectorAll('.saccordion_body');
 
 acc_header.forEach( item => {
     item.addEventListener('click', function(){
+
         acc_header.forEach(item =>{
             if( item != this ){
                 item.classList.remove('active');

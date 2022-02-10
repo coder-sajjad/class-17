@@ -247,10 +247,10 @@ body{
     color: #1a1a1a;
 }
 .sajjad_accordion .saccordion_item .saccordion_body{
-    
-    height: auto;
+    height: 0;
     overflow: hidden;
     transition: .3s;
+    
 }
 .sajjad_accordion .saccordion_item .saccordion_body .saccordion_content{
     padding: 12px;
